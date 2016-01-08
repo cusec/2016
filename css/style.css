@@ -51,6 +51,17 @@ body {
 	padding-bottom: 10px;
 }
 
+.btn-cusec{
+	background: #01e792;
+	background-image: linear-gradient(228deg, #01e792, #73ccff);
+	color: white;
+}
+
+.btn-cusec:hover{
+	background: #01cd85;
+	color: white !important;
+}
+
 /* Base Divs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
