@@ -135,6 +135,10 @@ hr{
 	border-top: 1px solid #73ccff !important;
 }
 
+#schedule hr{
+	margin:0;
+}
+
 #main {
 	background: linear-gradient(228deg, #01e792, #73ccff);
 	background-size: cover;
