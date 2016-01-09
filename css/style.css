@@ -27,6 +27,7 @@ body {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 30px;
+	margin-top: 30px;
 	font-weight: 300;
 	display: block;
 }
@@ -61,6 +62,71 @@ body {
 	background: #01cd85;
 	color: white !important;
 }
+
+/* Schedule */
+.schedule a {
+  color: #5D4056;
+}
+
+.schedule table {
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule td, th {
+  width: 250px;
+  text-align: center;
+}
+
+.schedule tr {
+  vertical-align: center;
+  line-height: 40px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.talk {
+  background-color: #01e792;
+}
+
+.event {
+  background-color: #F0F0F2;
+}
+
+#thursday {
+  display: none;
+}
+
+#friday {
+  display: none;
+}
+
+#saturday {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  #sched {
+    display: none;
+  }
+
+  #thursday {
+    display: block;
+  }
+
+  #friday {
+    display: block;
+  }
+
+  #saturday {
+    display: block;
+  }
+}
+
 
 /* Base Divs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
