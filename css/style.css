@@ -141,7 +141,6 @@ hr{
 
 #main {
 	background: linear-gradient(228deg, #01e792, #73ccff);
-	background-size: cover;
 	background-attachment: fixed;
 	min-height: 100%;
 	box-shadow: 2px 2px 5px 0 gray;
@@ -154,7 +153,7 @@ hr{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background: cover;
+	background-size: cover;
 }
 
 #aboutMain {
