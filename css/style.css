@@ -27,6 +27,7 @@ body {
 	font-size: 18px;
 	text-align: center;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	font-weight: 300;
 	display: block;
 }
@@ -62,6 +63,71 @@ body {
 	color: white !important;
 }
 
+/* Schedule */
+.schedule a {
+  color: #5D4056;
+}
+
+.schedule table {
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule td, th {
+  width: 250px;
+  text-align: center;
+}
+
+.schedule tr {
+  vertical-align: center;
+  line-height: 40px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.talk {
+  background-color: #01e792;
+}
+
+.event {
+  background-color: #F0F0F2;
+}
+
+#thursday {
+  display: none;
+}
+
+#friday {
+  display: none;
+}
+
+#saturday {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  #sched {
+    display: none;
+  }
+
+  #thursday {
+    display: block;
+  }
+
+  #friday {
+    display: block;
+  }
+
+  #saturday {
+    display: block;
+  }
+}
+
+
 /* Base Divs
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -69,9 +135,12 @@ hr{
 	border-top: 1px solid #73ccff !important;
 }
 
+#schedule hr{
+	margin:0;
+}
+
 #main {
 	background: linear-gradient(228deg, #01e792, #73ccff);
-	background-size: cover;
 	background-attachment: fixed;
 	min-height: 100%;
 	box-shadow: 2px 2px 5px 0 gray;
@@ -84,7 +153,7 @@ hr{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background: cover;
+	background-size: cover;
 }
 
 #aboutMain {
@@ -455,6 +524,10 @@ h4 {
 	.logo {
 		display: block!important;
 	}
+}
+
+@media only screen and (max-device-width: 480px) {
+	.cusecNav * { font-weight: 500; }
 }
 
 /* Media Queries

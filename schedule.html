@@ -9,410 +9,427 @@ title: Schedule
   </div>
 </div>
 
+<style>
+.table {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+td.keynote {
+  background-color: rgba(46, 204, 113, 0.1);
+}
+td.talk {
+  background-color: rgba(26, 188, 156, 0.05)
+}
+td.workshop {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+td.event {
+  background-color: rgba(155, 89, 182, 0.1);
+}
+td .note {
+  color: #34495e;
+  font-size: 12px;
+}
+
+.btn-group-days {
+  margin-bottom: 50px;
+}
+.btn-group-days .btn {
+  border-width: 0;
+}
+.btn-group-days .btn-day1 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#01e792), to(#27DEB6));
+  background-image: -webkit-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -moz-linear-gradient(left, #01e792, #27DEB6);
+  background-image: -o-linear-gradient(left, #01e792, #27DEB6);
+}
+.btn-group-days .btn-day2 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#27DEB6), to(#4DD5DA));
+  background-image: -webkit-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -moz-linear-gradient(left, #27DEB6, #4DD5DA);
+  background-image: -o-linear-gradient(left, #27DEB6, #4DD5DA);
+}
+.btn-group-days .btn-day3 {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#4DD5DA), to(#73CCFF));
+  background-image: -webkit-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -moz-linear-gradient(left, #4DD5DA, #73CCFF);
+  background-image: -o-linear-gradient(left, #4DD5DA, #73CCFF);
+}
+</style>
+
+<div class="text-center btn-group-days">
+  <!-- <div class="btn-group "> -->
+    <a href="#day1" class="btn btn-day1 btn-default">Thursday</a>
+    <a href="#day2" class="btn btn-day2 btn-default">Friday</a>
+    <a href="#day3" class="btn btn-day3 btn-default">Saturday</a>
+  <!-- </div> -->
+</div>
+
+<!-- Day 1 -->
 <div class="row">
-  <div class="col-lg-4 text-center">
-    <button class="btn btn-cusec" id="thursday">Thursday</button>
-  </div>
-  <div class="col-lg-4 text-center">
-    <button class="btn btn-cusec" id="friday">Friday</button>
-  </div>
-  <div class="col-lg-4 text-center">
-    <button class="btn btn-cusec" id="saturday">Saturday</button>
-  </div>
-</div>
-
-<!-- Day1 -->
-<hr>
-<div class="day1">
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>8:00 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Registration</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>9:15 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Breakfast</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>9:30 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Opening Remarks</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>10:00 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Julia Evans (Keynote)</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>11:10 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Sponsor Introduction</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>11:25 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Simon Eskildsen</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>12:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Ubisoft Speaker</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>12:30 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Lunch</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>1:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lunch</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Resume Review</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>2:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Career Fair</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>3:30 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Dann Toliver</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>4:05 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Julie Hache</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>4:40 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Carina Zona (Keynote)</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>7:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Democamp</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>9:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Pub Night sponsored by Shopify</h2>
+  <div class="col-md-8 col-md-offset-2">
+    <div class="table-responsive">
+      <table id="day1" class="table table-bordered">
+        <thead>
+        <tr>
+          <th colspan="3">Thursday</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>8:00 AM</td>
+          <td rowspan="2">Registration</td>
+          <td rowspan="2">Breakfast</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>9:30 AM</td>
+          <td colspan="2">Opening Remarks</td>
+        </tr>
+         <tr>
+          <td>10:00 AM</td>
+          <td rowspan="2" colspan="2" class="keynote">
+            <a href="/speakers.html#julia_evans">Julia Evans</a><br>
+            <span class="note">Keynote</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>11:05 AM</td>
+          <td colspan="2">Sponsor Introduction</td>
+        </tr>
+        <tr>
+          <td>11:25 AM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#simon_eskildsen">Simon Eskildsen</a>
+          </td>
+        </tr>
+        <tr>
+          <td>12:00 PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#alex_selesse">Alex Selesse</a>
+          </td>
+        </tr>
+        <tr>
+          <td>12:30 PM</td>
+          <td rowspan="3">Lunch Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td rowspan="2" class="event">
+            Resume Review<br>
+            <span class="note">IBM Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td colspan="2" rowspan="3">Career Fair</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3:30 PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#dann_toliver">Dann Toliver</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4:05PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#julie_hache">Julie Hach&eacute;
+          </td>
+        </tr>
+        <tr>
+          <td>4:40 PM</td>
+          <td colspan="2" rowspan="2" class="keynote">
+            <a href="/speakers.html#carina_zona">Carina C. Zona</a><br>
+            <span class="note">Keynote</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>5:40 PM</td>
+          <td colspan="2">End of Talks</td>
+        </tr>
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>7:00 PM</td>
+          <td colspan="2" rowspan="3" class="event">
+            Democamp<br>
+            <span class="note">IBM Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>9:00 PM</td>
+          <td colspan="2" class="event">
+            Shopify Pub Night<br>
+            <span class="note">
+              <a href="https://goo.gl/maps/BGFkwryZrF62">Les 3 Brasseurs</a>
+            </span>
+          </td>
+        </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
 
-<!--Day2-->
-
-<div class="day2">
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>9:15 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Breakfast</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>10:00 AM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Robin Grosset</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>CSE Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>10:35 AM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Josh Matthews</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>CSE Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>11:10 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Michael Bernstein (Keynote)</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>12:00 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lunch</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>CUSEC Ladies</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>1:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lightning Talks</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>2:00 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Career Fair</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>2:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Career Fair</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Capital One workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>3:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Laurie Hendren</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Capital One workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>4:05 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lucille Hua</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>4:40 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>IBM workshop (Keynote)</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>8:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Games night</h2>
+<!-- Day 2 -->
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="table-responsive">
+      <table id="day2" class="table table-bordered">
+        <thead>
+        <tr>
+          <th colspan="3">Friday</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>9:00 AM</td>
+          <td rowspan="2">Registration</td>
+          <td rowspan="2">Breakfast</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td class="talk">
+            <a href="/speakers.html#robin_grosset">Robin Grosset</a>
+          </td>
+          <td rowspan="2" class="workshop">
+            CSE Workshop<br>
+            <span class="note">Workshop Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>10:35 AM</td>
+          <td class="talk">
+            <a href="/speakers.html#josh_matthews">Josh Matthews</a>
+          </td>
+        </tr>
+        <tr>
+          <td>11:10 AM</td>
+          <td rowspan="2" colspan="2" class="keynote">
+            <a href="/speakers.html#michael_bernstein">Michael Bernstein</a><br>
+            <span class="note">Keynote</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>12:10 PM</td>
+          <td rowspan="2">Lunch Break</td>
+          <td class="event">
+            CUSEC Ladies<br>
+            <span class="note">IBM Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td rowspan="3" class="workshop">
+            GM Workshop<br>
+            <span class="note">Workshop Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>1:30 PM</td>
+          <td class="event">Lightning Talks</td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td rowspan="3">Career Fair</td>
+        </tr>
+        <tr>
+          <td>2:30 PM</td>
+          <td rowspan="3" class="workshop">
+            Capital One Workshop<br>
+            <span class="note">Workshop Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3:30 PM</td>
+          <td class="talk">
+            <a href="/speakers.html#laurie_hendren">Laurie Hendren</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4:05PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#lucille_hua">Lucille Hua</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4:40 PM</td>
+          <td colspan="2" rowspan="3" class="workshop">
+            IBM Workshop<br>
+            <span class="note">IBM Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>6:10 PM</td>
+          <td colspan="2">End of Talks</td>
+        </tr>
+        <tr>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>8:00 PM</td>
+          <td colspan="2" rowspan="3" class="event">Games Night</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
 
 <!-- Day 3 -->
-
-<div class="day3">
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>9:15 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Breakfast</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>10:00 AM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Fiona Condon</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Yelp Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>10:35 AM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Daniel Lanthier</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Yelp Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>11:10 AM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Keynote</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>12:00 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lunch</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>12:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Lunch</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>CUSEC 2017 Info session</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>1:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Career Fair</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>RBC Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>2:30 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Break</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>RBC Workshop</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>3:00 PM</h2>
-    </div>
-    <div class="col-lg-4 text-center">
-      <h2>Alex Selesse</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>3:30 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Prakash Panangaden</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>4:05 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Jeff Hodges</h2>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-lg-4 text-center">
-      <h2>5:00 PM</h2>
-    </div>
-    <div class="col-lg-8 text-center">
-      <h2>Closing Remarks</h2>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="table-responsive">
+      <table id="day3" class="table table-bordered">
+        <thead>
+        <tr>
+          <th colspan="3">Saturday</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>9:00 AM</td>
+          <td rowspan="2">Registration</td>
+          <td rowspan="2">Breakfast</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td class="talk">
+            <a href="/speakers.html#fiona_condon">Fiona Condon</a>
+          </td>
+          <td rowspan="2" class="workshop">
+            Yelp Workshop<br>
+            <span class="note">Workshop Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>10:35 AM</td>
+          <td class="talk">
+            <a href="/speakers.html#daniel_lanthier">Daniel Lanthier</a>
+          </td>
+        </tr>
+        <tr>
+          <td>11:10 AM</td>
+          <td rowspan="2" colspan="2" class="keynote">
+            <a href="/speakers.html#kate_heddleston">Kate Heddleston</a><br>
+            <span class="note">Keynote</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>12:10 PM</td>
+          <td rowspan="3">Lunch Break</td>
+        </tr>
+        <tr>
+          <td>12:30 PM</td>
+          <td rowspan="2" class="event">
+            CUSEC 2017 Volunteer Info<br>
+            <span class="note">IBM Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>1:30 PM</td>
+          <td rowspan="2">Career Fair</td>
+          <td rowspan="3" class="workshop">
+            RBC Workshop<br>
+            <span class="note">Workshop Room</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>2:30 PM</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#nathan_powell">Nathan Powell</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3:35 PM</td>
+          <td colspan="2" class="talk">
+            <a href="/speakers.html#prakash_panangaden">Prakash Panangaden</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4:10PM</td>
+          <td colspan="2" rowspan="2" class="keynote">
+            <a href="/speakers.html#jeff_hodges">Jeff Hodges</a><br>
+            <span class="note">Keynote</span>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>5:10 PM</td>
+          <td colspan="2">Closing Remarks</td>
+        </tr>
+        <tr>
+          <td>5:20 PM</td>
+          <td colspan="2">End of CUSEC 2016</td>
+        </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </div>
