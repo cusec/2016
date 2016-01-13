@@ -595,3 +595,7 @@ h4 {
 	background: url(../img/simple_dashed.png) repeat;
 	padding: 2% 0;
 }
+
+.jeff_hodges_hover:hover{
+	background-image: url(../img/speakers/jeff_pic_hover.jpg);
+}

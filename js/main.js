@@ -73,3 +73,11 @@
 		    $(".navbar-collapse").collapse('hide');
 		  }
 		});
+
+
+function hover(element) {
+    element.setAttribute('src', 'img/speakers/jeff_pic_hover.png');
+}
+function unhover(element) {
+    element.setAttribute('src', 'img/speakers/jeff_pic.jpg');
+}
